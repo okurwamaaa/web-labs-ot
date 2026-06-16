@@ -4,91 +4,45 @@
     <meta charset="UTF-8">
     <meta name="author" content="Володимир Іщук">
     <title>Головна - Калістеніка</title>
-</head>
-<body bgcolor="#f0f8ff" link="red" alink="blue" vlink="green">
-
-    <a name="top"></a>
-
-    <h1 align="center"><b>Застосунок для домашніх тренувань</b></h1>
+    <link rel="stylesheet" href="style.css">
     
-    <p><i>Вітаємо у світі калістеніки!</i> Це місце, де ти побудуєш ідеальне тіло.</p>
-    <p>Калістеніка — це система тренувань з <b>власною вагою</b>.</p>
+    <style>
+        a { color: #8e44ad; }
+    </style>
+</head>
+<body>
+
+    <h1>Застосунок для домашніх тренувань</h1>
+    
+    <p style="text-align: right; background-color: #ffffcc; padding: 10px; border-radius: 5px;">
+        Вітаємо у світі калістеніки! Це місце, де ти побудуєш ідеальне тіло.
+    </p>
+    
+    <p class="highlight-text important-rule">Калістеніка — це система тренувань з власною вагою.</p>
 
     <h3>Навігація:</h3>
     <dl>
         <dt><a href="exercises.html">База вправ</a></dt>
         <dd>Детальний опис техніки виконання.</dd>
-        
         <dt><a href="programs.html">Програми</a></dt>
         <dd>Готові спліт-тренування.</dd>
-        
         <dt><a href="timer.html">Таймер</a></dt>
         <dd>Контроль відпочинку.</dd>
-        
-        <dt><a href="#bottom">Вниз сторінки</a></dt>
-        <dd>Перейти до відео та таблиць.</dd>
     </dl>
 
-    <h3>Мотивація:</h3>
-    <p>Натисни на картинку, щоб відкрити її в повному розмірі:</p>
-    <a href="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?q=80&w=1000" target="_blank">
-        <img src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?q=80&w=1000" alt="Тренування" width="400" height="250">
-    </a>
-
     <h3>Проста таблиця: Інвентар</h3>
-    <table border="1" width="80%">
-        <caption><b>Базове обладнання</b></caption>
-        <tr bgcolor="#cccccc">
+    <table id="special-table">
+        <tr>
             <th>Турнік</th>
             <th>Бруси</th>
             <th>Кільця</th>
         </tr>
-        <tr align="center">
-            <td><img src="https://cdn-icons-png.flaticon.com/512/3254/3254141.png" width="30" height="30"></td>
-            <td><img src="https://cdn-icons-png.flaticon.com/512/3254/3254141.png" width="30" height="30"></td>
-            <td><img src="https://cdn-icons-png.flaticon.com/512/3254/3254141.png" width="30" height="30"></td>
-        </tr>
-        <tr align="center">
-            <td><a href="https://rozetka.com.ua/" target="_blank">Знайти в інтернеті</a></td>
-            <td><a href="https://rozetka.com.ua/" target="_blank">Знайти в інтернеті</a></td>
-            <td><a href="https://rozetka.com.ua/" target="_blank">Знайти в інтернеті</a></td>
-        </tr>
-        <tr align="center">
+        <tr>
             <td>Основа для спини</td>
             <td>Основа для грудей</td>
             <td>Для просунутих</td>
         </tr>
     </table>
-
-    <br>
-
-    <h3>Складна таблиця: Розклад</h3>
-    <table border="1" cellspacing="0" cellpadding="10" width="80%">
-        <colgroup>
-            <col span="1" style="background-color:#e6e6fa">
-            <col span="2" style="background-color:#fff0f5">
-        </colgroup>
-        <tr align="center">
-            <th rowspan="2">День тижня</th>
-            <th colspan="2">Тренування</th>
-        </tr>
-        <tr align="center">
-            <th>М'язи</th>
-            <th>Час (хв)</th>
-        </tr>
-        <tr align="left">
-            <td>Понеділок</td>
-            <td align="center">Спина, біцепс</td>
-            <td align="right">60</td>
-        </tr>
-    </table>
-
-    <a name="bottom"></a>
-    <h3>Відео-урок з підтягувань:</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eGo4IYPNgUM" frameborder="0" allowfullscreen></iframe>
-    
-    <br><br>
-    <a href="#top">Повернутися наверх сторінки</a>
 
 </body>
 </html>
